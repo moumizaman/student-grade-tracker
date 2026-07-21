@@ -1,17 +1,65 @@
-# student_grade_tracker
+# Student Grade Tracker App
 
-A new Flutter project.
+A Flutter application that allows students to add subjects with marks, view grades, and see an overall performance summary.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Add subjects with marks
+- Automatic grade calculation (A, B, C, F)
+- Subject List using ListView.builder
+- Swipe to delete subjects using Dismissible
+- Live Summary Screen
+- Average mark calculation
+- Overall grade calculation
+- Bottom Navigation Bar
+- Light/Dark Theme Toggle
+- Provider State Management
+- Form Validation
 
-A few resources to get you started if this is your first Flutter project:
+## Technologies
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+- Flutter
+- Dart
+- Provider
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## How to Run
+
+1. Clone the repository
+
+```
+git clone https://github.com/YOUR_USERNAME/student-grade-tracker.git
+```
+
+2. Open the project
+
+```
+cd student-grade-tracker
+```
+
+3. Install packages
+
+```
+flutter pub get
+```
+
+4. Run the app
+
+```
+flutter run
+```
+
+## Project Structure
+
+```
+lib/
+ ├── models/
+ ├── providers/
+ ├── screens/
+ ├── themes/
+ ├── widgets/
+ └── main.dart
+```
+
+## Author
+
+Moumi Zaman
