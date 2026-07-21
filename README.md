@@ -63,3 +63,7 @@ lib/
 ## Author
 
 Moumi Zaman
+
+## Assignment
+
+This project was developed as part of a Flutter coursework assignment.
